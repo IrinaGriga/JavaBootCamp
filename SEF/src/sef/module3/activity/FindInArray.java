@@ -3,15 +3,10 @@
  */
 package sef.module3.activity;
 
-/**
- * @author 
- *
- */
+
 public class FindInArray {
 
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) {
 		
 		// Create an integer array

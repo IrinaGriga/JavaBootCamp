@@ -14,8 +14,8 @@ public class Calculator {
 	
 		
 	public static void main(String[] args) {
-		Person p1 = new Person("Atif");
-		Person p2 = new Person("Gatis");
+//		Person p1 = new Person("Atif");
+//		Person p2 = new Person("Gatis");
 		
 	int x = 10;
 	int y = 0;
@@ -27,7 +27,7 @@ public class Calculator {
 //	System.out.println("Multiply - " + multiply(nums));
 	System.out.println("Divide - " + divide(x,y));
 	
-	if 
+	//if
 	
 	}
 
@@ -62,10 +62,8 @@ public class Calculator {
 
 	private static int divide(int x, int y) {
 		int divValue = 0;
-		if (x == 0 || y == 0) {
+		if (y == 0) {
 			System.out.println("One of the number is 0, I can't do the divide operation");
-			divValue = 0;
-			return ;
 			// complete the code 
 		} else {
 			divValue = x/y;
