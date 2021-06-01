@@ -6,7 +6,8 @@ public class Student_A extends Person_A {
 	private int grade;
 	private String school;
 	private String name;
-	
+	private int age;
+
 	//Behavior - default constructor
 	public Student_A(){ 
 		System.out.println("I'm Student_A constructor"); 
@@ -39,6 +40,9 @@ public class Student_A extends Person_A {
 	public void setName(String name){
 		this.name="<S>"+name;
 	}
-	
+
+	public int getAge() {return age;}
+	public void setAge (int age) {this.age = age;}
+
 	
 }

@@ -23,7 +23,7 @@ public class PolymorphismSample {
 		// Method Overriding
 		System.out.println("-------------Method Overriding----------------");
 		p.announce();
-		System.out.println("-----------------------------");
+		System.out.println("-----------Method Overrding------------------");
 		s.announce();
 		System.out.println("-----------------------------");
 		ps.announce();

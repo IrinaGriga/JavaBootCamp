@@ -1,6 +1,6 @@
 package sef.module6.sample;
 
-public abstract class Person_A{
+abstract class Person_A{
 	
 	private int age;
 		

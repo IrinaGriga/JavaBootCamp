@@ -1,18 +1,22 @@
 package sef.module6.activity;
 
 
+import sef.module6.sample.Person_I;
 
 public class InheritanceActivity {
 
 	public static void main(String[] args) {
 		
-		// Create Person object p. Write code to and set name of Person as Sarah Johnson
-		// and age as 21
-		
-		
-		
+		 Person_I p = new Person_I();
+		 p.setName ("");
+
 		System.out.println("-----------------------------");
-		//Create Employee object e and 
+		Employee_I e = new Employee_I();
+		e.setSalary(70000);
+		e.setTitle("Developer");
+		e.setAge(32);
+		e.setName("Shawn Cun");
+		//Create Employee object e and
 		// set salary as 70000, title as Developer, age as 32 and name as Shawn Cun
 		
 		
@@ -24,8 +28,8 @@ public class InheritanceActivity {
 		System.out.println("Employee's Title is  : " + e.getTitle());
 		System.out.println("Employee's Salary is : " + e.getSalary());
 		
-		
-		// Print Info using Person object
+
+		//Print Info using Person object
 		System.out.println("-----------------------------");
 		System.out.println("Person's Name is    : " + p.getName());
 		System.out.println("Person's Age is     : " + p.getAge());

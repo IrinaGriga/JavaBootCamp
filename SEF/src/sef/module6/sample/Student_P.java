@@ -4,7 +4,7 @@ package sef.module6.sample;
 /* Student_P class is the sub class of Person class
  * Attributes : school, grade
  */
-public class Student_P extends Person_P {
+class Student_P extends Person_P {
 
 	//Attributes
 	private int grade;
@@ -12,7 +12,7 @@ public class Student_P extends Person_P {
 	
 	//Behavior - default constructor
 	public Student_P(){ 
-		 
+
 	}
 	
 	// getter for int grade
@@ -44,5 +44,6 @@ public class Student_P extends Person_P {
 	public void announce(){
 		System.out.println("I am a Student");
 	}
-		
+
+
 }

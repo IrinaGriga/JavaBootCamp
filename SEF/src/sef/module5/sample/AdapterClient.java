@@ -1,4 +1,5 @@
 package sef.module5.sample;
+import sef.module5.sample.AdapterInterface;
 
 public class AdapterClient {
 

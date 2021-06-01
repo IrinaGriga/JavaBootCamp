@@ -1,6 +1,9 @@
 package sef.module6.sample;
 
-public class Employee_A extends Person_A{
+
+
+
+class Employee_A extends Person_A{
 
 	//Attributes
 	private double salary;
@@ -39,6 +42,8 @@ public class Employee_A extends Person_A{
 	public void setName(String name){
 		this.name="<E>"+name;
 	}
-	
-	
-}
+
+
+
+	}
+

@@ -12,16 +12,11 @@ public class Person_I {
 		
 	//Behavior - default constructor
 	public Person_I(){
-		this.name="Unknown";
-		this.age = 0;
+		this.name="Sarah Johnson";
+		this.age = 21;
 		System.out.println("I'm Person_I constructor"); // Called when creating a Person instance
 	}
-	
-	//Behavior - parameterized constructor
-	public Person_I(String name, int age){
-		this.name = name;
-		this.age = age;
-	}
+
 	
 	// getter for String name
 	public String getName() {
