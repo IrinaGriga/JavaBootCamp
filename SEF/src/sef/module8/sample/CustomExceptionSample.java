@@ -6,6 +6,7 @@ public class CustomExceptionSample {
 	public static void setAge(int age) throws CustomException{
 		//1 - Check if age<0. if yes, then throw CustomException
 		if(age<0)
+
 		{
 			//Creating and throwing an instance of CustomException
 			//this ensures that CustomException is thrown
@@ -22,9 +23,15 @@ public class CustomExceptionSample {
 		} catch (CustomException c) {
 			System.out.println("Age can not be less then 0");
 			System.out.println(c.getMessage());
-			// TODO: handle exception
+
 		}
-			
+		try {
+			setAge(150);
+		} catch (CustomException d) {
+			System.out.println("Sorry, you are too old to be alive");
+			System.out.println(d.getMessage());
+
+		}
 		
 	}
 }
