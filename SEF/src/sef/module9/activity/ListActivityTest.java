@@ -1,10 +1,11 @@
 package sef.module9.activity;
 
-import static org.junit.Assert.*;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.testng.AssertJUnit.fail;
+
 
 public class ListActivityTest {
 

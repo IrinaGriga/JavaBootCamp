@@ -47,7 +47,7 @@ public class ListSample {
 	    obj.print(list);
 	}
 
-	void print(List l)
+	public void print(List l)
 	{
 		//Iterator is an interface which provides a uniform way to access
 		//individual elements of a Collection
